@@ -1,0 +1,18 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+<!-- Page header -->
+<h1 class="text-center mt-3">Create a Post</h1>
+
+<!-- Post form -->
+<form method="POST" class="mt-4">
+  <div class="mb-3">
+    <textarea name="text" id="text" class="form-control" rows="5" ></textarea>
+  </div>
+  <div class="text-center">
+    <button type="submit" class="btn btn-lg btn-primary">Post</button>
+  </div>
+</form>
+
+
+{% endblock content %}
